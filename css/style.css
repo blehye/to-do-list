@@ -1,3 +1,118 @@
+@import "reset.css";
+
+@font-face {
+  font-family: "jua";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/BMJUA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .hidden {
   display: none;
+}
+
+body {
+  font-family: "jua";
+}
+
+img {
+  width: 40%;
+  height: 80%;
+}
+
+#login-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#login-form input {
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px;
+  background-color: rgb(242, 231, 219);
+  padding: 10px 20px;
+  margin-right: 15px;
+}
+
+#login-form button {
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px;
+  background-color: rgb(186, 222, 186);
+  padding: 10px;
+}
+
+#login-form input::placeholder {
+  text-align: center;
+}
+
+#clock {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#todo-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#todo-form input {
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px;
+  background-color: rgba(233, 175, 112, 0.688);
+  padding: 10px 50px;
+  margin-right: 15px;
+  display: flex;
+}
+
+#quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#quote span {
+  margin: 10px 0px;
+}
+
+#todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 90px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px;
+  background-color: rgba(151, 217, 236, 0.567);
+  padding: 10px 0px;
+}
+
+#todo-list span {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+#todo-list button {
+  margin: 10px 0px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px;
+  background-color: rgba(242, 228, 209, 0.782);
+  padding: 2px 2px;
+}
+
+#greeting {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
